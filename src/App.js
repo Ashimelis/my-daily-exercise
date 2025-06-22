@@ -1,4 +1,4 @@
-
+import './index.css'
 import React from "react-dom"
 import {  Routes, Route, } from "react-router-dom"
 import Login from "./pages/Auth/Login";
@@ -15,7 +15,12 @@ import ContactUs from "./pages/ContatacUs/ContactUs";
 function App() {
   return (
     <div>
-      
+      <div>
+        <header>
+          <h1 className='text-green-700'> SEW-Trillion</h1>
+
+      </header>
+      </div>
       
         <Routes>
           <Route path='/' element={ <Layout/>}/>

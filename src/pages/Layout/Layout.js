@@ -2,46 +2,46 @@ import { Outlet, Link } from "react-router-dom";
 
 const Layout = () => {
   return (
-    <>
-      <nav>
-        <ul>
+    <div>
+      <nav> 
+        <ul className='flex bg-gray-700 items-center justify-between gap-[3vw]'>
             <li>
-            <Link to="/login">Login</Link>
+            <Link className="hover:text-gray-500" to="/login">Login</Link>
           </li>
           <li>
-            <Link to="/register">Register</Link>
+            <Link className="hover:text-gray-500"to="/register">Register</Link>
           </li>
           <li>
-            <Link to="/home">Home</Link>
+            <Link className="hover:text-gray-500"to="/home">Home</Link>
           </li>
          
           <li>
-            <Link to="/membership">Membership</Link>
+            <Link className="hover:text-gray-500" to="/membership">Membership</Link>
           </li>
            <li>
-            <Link to="/products">Products</Link>
+            <Link className="hover:text-gray-500"to="/products">Products</Link>
           </li>
            <li>
-            <Link to="/services">Services</Link>
+            <Link className="hover:text-gray-500"to="/services">Services</Link>
           </li>
            <li>
-            <Link to="/savings">Savings</Link>
+            <Link className="hover:text-gray-500"to="/savings">Savings</Link>
           </li>
            <li>
-            <Link to="/loan">Loan service</Link>
+            <Link className="hover:text-gray-500"to="/loan">Loan service</Link>
           </li>
            <li>
-            <Link to="/about">About us</Link>
+            <Link className="hover:text-gray-500"to="/about">About us</Link>
           </li>
            <li>
-            <Link to="/contact">contact Us</Link>
+            <Link className="hover:text-gray-500"to="/contact">contact Us</Link>
           </li>
          
         </ul>
       </nav>
 
       <Outlet />
-    </>
+    </div>
   )
 };
 

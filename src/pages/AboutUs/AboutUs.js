@@ -2,7 +2,7 @@ import React from 'react'
 
 function AboutUs() {
   return (
-    <div>AboutUs</div>
+    <div className='text-red justify-center'>AboutUs</div>
   )
 }
 
