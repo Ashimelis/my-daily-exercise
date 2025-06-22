@@ -20,8 +20,8 @@ function App() {
           <h1 className='text-green-700'> SEW-Trillion</h1>
 
       </header>
-      </div>
-      
+      </div >
+      <div>
         <Routes>
           <Route path='/' element={ <Layout/>}/>
           <Route path='/login' element={ <Login/>}/>
@@ -35,6 +35,8 @@ function App() {
           <Route path='/about' element={ <AboutUs/>}/>
           <Route path='/contact' element={ <ContactUs/>}/>
         </Routes>
+      </div>
+        
     
      
     </div>

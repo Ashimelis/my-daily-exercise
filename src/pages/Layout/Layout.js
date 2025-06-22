@@ -3,8 +3,8 @@ import { Outlet, Link } from "react-router-dom";
 const Layout = () => {
   return (
     <div>
-      <nav> 
-        <ul className='flex bg-gray-700 items-center justify-between gap-[3vw]'>
+      <nav className="bg-slate-500"> 
+        <ul className="flex justify-between bg-gray-700 items-center  gap-[3vw]">
             <li>
             <Link className="hover:text-gray-500" to="/login">Login</Link>
           </li>
@@ -19,22 +19,22 @@ const Layout = () => {
             <Link className="hover:text-gray-500" to="/membership">Membership</Link>
           </li>
            <li>
-            <Link className="hover:text-gray-500"to="/products">Products</Link>
+            <Link className="hover:text-gray-500" to="/products">Products</Link>
           </li>
            <li>
-            <Link className="hover:text-gray-500"to="/services">Services</Link>
+            <Link className="hover:text-gray-500" to="/services">Services</Link>
           </li>
            <li>
-            <Link className="hover:text-gray-500"to="/savings">Savings</Link>
+            <Link className="hover:text-gray-500" to="/savings">Savings</Link>
           </li>
            <li>
-            <Link className="hover:text-gray-500"to="/loan">Loan service</Link>
+            <Link className="hover:text-gray-500" to="/loan">Loan service</Link>
           </li>
            <li>
-            <Link className="hover:text-gray-500"to="/about">About us</Link>
+            <Link className="hover:text-gray-500" to="/about">About us</Link>
           </li>
            <li>
-            <Link className="hover:text-gray-500"to="/contact">contact Us</Link>
+            <Link className="hover:text-gray-500" to="/contact">contact Us</Link>
           </li>
          
         </ul>
