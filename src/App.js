@@ -1,4 +1,4 @@
-import './index.css'
+import "./index.css"
 import React from "react-dom"
 import {  Routes, Route, } from "react-router-dom"
 import Login from "./pages/Auth/Login";
@@ -16,8 +16,8 @@ function App() {
   return (
     <div>
       <div>
-        <header>
-          <h1 className='text-green-700'> SEW-Trillion</h1>
+        <header className="bg-gradient-to-r from-red-500">
+          <h1> SEW-Trillion</h1>
 
       </header>
       </div>
@@ -36,9 +36,6 @@ function App() {
           <Route path='/contact' element={ <ContactUs/>}/>
         </Routes>
       </div>
-        
-    
-     
     </div>
   );
 }

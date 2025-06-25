@@ -4,10 +4,10 @@ const Layout = () => {
   return (
     <div>
       <nav> 
-        <ul  className="flex justify-between bg-gray-700 items-center  gap-[3vw]">
+        <ul className="flex space-x-4">
             <li>
             <Link className="hover:text-gray-500" to="/login">Login</Link>
-          </li>
+          </li >
           <li>
             <Link className="hover:text-gray-500"to="/register">Register</Link>
           </li>
@@ -30,10 +30,10 @@ const Layout = () => {
            <li>
             <Link className="hover:text-gray-500" to="/loan">Loan service</Link>
           </li>
-           <li>
+           <>
             <Link className="hover:text-gray-500" to="/about">About us</Link>
-          </li>
-           <li>
+          </>
+           <li >
             <Link className="hover:text-gray-500" to="/contact">contact Us</Link>
           </li>
          
