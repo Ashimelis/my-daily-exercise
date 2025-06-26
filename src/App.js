@@ -18,10 +18,9 @@ function App() {
       <div>
         <header className="bg-gradient-to-r from-red-500">
           <h1> SEW-Trillion</h1>
-
       </header>
       </div>
-      <div>
+      <div className="flex space-x-8">
         <Routes>
           <Route path='/' element={ <Layout/>}/>
           <Route path='/login' element={ <Login/>}/>

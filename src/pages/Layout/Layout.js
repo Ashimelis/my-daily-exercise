@@ -4,15 +4,15 @@ const Layout = () => {
   return (
     <div>
       <nav> 
-        <ul className="flex space-x-4">
+        <ul className="flex space-x-8">
             <li>
             <Link className="hover:text-gray-500" to="/login">Login</Link>
           </li >
           <li>
-            <Link className="hover:text-gray-500"to="/register">Register</Link>
+            <Link className="hover:text-gray-500" to="/register">Register</Link>
           </li>
           <li>
-            <Link className="hover:text-gray-500"to="/home">Home</Link>
+            <Link className="hover:text-gray-500" to="/home">Home</Link>
           </li>
          
           <li>
