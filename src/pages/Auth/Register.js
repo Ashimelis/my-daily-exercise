@@ -1,13 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Register() {
   return (
     
     <div className='flex justify-center items-center h-screen'>
-      <div className='shadow-lg px-8 py-5 border w-9'>
+      <div className='shadow-lg px-8 py-5 border w-96'>
         <h2 className='text-lg font-bold mb-4'>Register</h2>
         <form>
-        <div className='mb-64'>
+        <div className='mb-4'>
           <label htmlFor='username' className='block text-gray-700'>User Name</label> <br></br>
           <input type='name' placeholder='Enter user name' className='w-full px-3 py-2 border'/>
         </div>
@@ -23,7 +24,7 @@ function Register() {
       </form>
       <div className='text-center'>
         <span>Already have an Account</span>
-        <a href='/register'>Login</a>
+        <Link to='login' className='text-blue-400'>Login</Link>
       </div>
       </div> 
     </div>

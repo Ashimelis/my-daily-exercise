@@ -3,7 +3,7 @@ import React from 'react'
 function Login() {
   return (
     <div className='flex justify-center items-center h-screen'>
-      <div className='shadow-lg px-8 py-5 border w-9'>
+      <div className='shadow-lg px-8 py-5 border w-96'>
         <form>
         <div className='mb-4'>
           <label htmlFor='email' className='block text-gray-700'>Email</label><br></br>

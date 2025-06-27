@@ -12,12 +12,13 @@ import Saving from "./pages/Saving/Saving";
 import LoanService from "./pages/LoanService/LoanService";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import ContactUs from "./pages/ContatacUs/ContactUs";
+import './index.css'
 function App() {
   return (
     <div>
       <div>
         <header className="bg-gradient-to-r from-red-500">
-          <h1> SEW-Trillion</h1>
+          <h1 className="text-white text-bold"> SEW-Trillion</h1>
       </header>
       </div>
       <div className="flex space-x-8">
