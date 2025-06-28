@@ -18,7 +18,7 @@ function App() {
     <div>
       <div>
         <header className="bg-gradient-to-r from-red-500">
-          <h1 className="text-white text-bold"> SEW-Trillion</h1>
+          <h1 className="text-white text-bold">SEW-Trillion</h1>
       </header>
       </div>
       <div className="flex space-x-8">
