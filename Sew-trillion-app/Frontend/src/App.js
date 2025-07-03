@@ -19,7 +19,7 @@ function App() {
       <div className=" flex-grow-0 shadow-black border-spacing-2">
         <header className=" overflow-x-autoauto bg-gradient-to-r from-red-500 px-4 py-4">
           
-          <h1 className="text-white text-bold">SEW-Trillion</h1>
+          <h1 className="text-bold text-blue-400">SEW-Trillion</h1>
           <div className="object-cover object-center">
             <div className="inline space-x-4 gap-16 px-4 py-2 justify-items-end">
               <button className="w-full max-w-24 bg-green-300 shadow-md  rounded-md">{'Login'}</button>
@@ -73,6 +73,5 @@ function App() {
       </footer>
       </div>
   );
-}
-
-export default App;
+};
+export default App
