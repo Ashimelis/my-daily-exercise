@@ -50,7 +50,7 @@ function App() {
         </Routes>
       </div>
       <footer>
-        <div className=" flex bg-yellow-300  items-center justify-center shadow-lg border-rounded gap-4">
+        <div className=" flex bg-yellow-300  items-center justify-center shadow-lg border-md gap-2">
          <div className=' shadow-lg px-8 py-5 border w-96'>
           <span> Adders</span>
           <h2> Phone Number</h2> <h3> 0922147734</h3>
