@@ -16,7 +16,7 @@ import {  Routes, Route} from "react-router-dom"
 function App() {
   return (
     <div>
-      <div className=" flex-grow-0 shadow-black border-spacing-2">
+      <div className="flex-grow-0 shadow-black border-spacing-2">
         <header className=" overflow-x-autoauto bg-gradient-to-r from-red-500 px-4 py-4">
           
           <h1 className="text-bold text-blue-400">SEW-Trillion</h1>
@@ -49,7 +49,7 @@ function App() {
                   <Route path='contact' element={ <ContactUs/>}/>
         </Routes>
       </div>
-      <footer>
+      <footer className="fixed bottom-0 border-rounded">
         <div className=" flex bg-yellow-300  items-center justify-center shadow-lg border-md gap-2">
          <div className=' shadow-lg px-8 py-5 border w-96'>
           <span> Adders</span>

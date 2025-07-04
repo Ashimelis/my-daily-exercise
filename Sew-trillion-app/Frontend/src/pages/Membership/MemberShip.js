@@ -2,7 +2,17 @@ import React from 'react'
 
 function MemberShip() {
   return (
-    <div>MemberShip</div>
+    <div>
+      <div>
+        <form>
+          <p> Members registration</p>
+
+        </form>
+      </div>
+      <div>
+
+      </div>
+    </div>
   )
 }
 

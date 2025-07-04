@@ -5,9 +5,9 @@ import image2 from "../../Assets/istockphoto3.webp"
 function Home() {
   return (
     
-     <div className=' static container max-auto inline-block'>
+     <div className='container max-auto inline-block'>
       <div className='flex box-border float-left'>
-        <div className='absolute top-0 left-0 border-round shadow-lg'>
+        <div className=' border-round shadow-lg'>
         <h1 className='bg-slate-400 relative text-yellow-300'> Welcome to Sew-trillion</h1>
         <h3 className='bg-slate-400 relative text-white'> We Build and Grow Together</h3>
       </div>
