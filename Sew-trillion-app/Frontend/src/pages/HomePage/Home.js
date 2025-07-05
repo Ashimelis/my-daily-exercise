@@ -4,47 +4,42 @@ import image2 from "../../Assets/istockphoto3.webp"
 
 function Home() {
   return (
+    <div>
     
-     <div className='container max-auto inline-block'>
-      <div className='flex box-border float-left'>
-        <div className=' border-round shadow-lg'>
-        <h1 className='bg-slate-400 relative text-yellow-300'> Welcome to Sew-trillion</h1>
-        <h3 className='bg-slate-400 relative text-white'> We Build and Grow Together</h3>
-      </div>
-      <div className='justify-start w-60 h-20 object-fill'>
-      <img className='float-right' src={image} alt='welcome to Sew-trillion'/> 
+    <div className='py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-md space-y-2 sm:py-4 sm:space-y-0 sm:space-x-6 '>
+      <img className='block mx-auto h-24 rounded-sm sm:mx-0 sm:flex-shrink-0' src={image} alt='welcome to Sew-trillion'/> 
     </div>
-     </div>
-      <div className='flex box-border float-right'>
-        <div className='border-round shadow-lg'>
+    <div>
+       <h1 className='bg-slate-400 relative text-yellow-300'> Welcome to Sew-trillion</h1>
+        <h3 className='bg-slate-400 relative text-white'> We Build and Grow Together</h3>
+    </div>
+     
         <h1 className='bg-slate-400 text-yellow-400'> Invest in your future</h1>
         <h3 className='bg-slate-400 text-white'> Save your money</h3>
+      
+      <div className='py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-md space-y-2 sm:py-4 sm:space-y-0 sm:space-x-6 '>
+        <img className='block mx-auto h-24 rounded-sm sm:mx-0 sm:flex-shrink-0' src={image2} alt='welcome to Sew-trillion'/>
       </div>
-      <div className='justify-start w-60 h-20 object-fill'>
-      <img className='float-left' src={image2} alt='welcome to Sew-trillion'/> 
-    </div>
-      </div>
-       
-    <div className='inline'>
+    
       <div>
       <h> Top Rated products</h>
-      <div className='flex'>
-        <div>
+      <ul className='flex'>
+        <li>
           <img  alt=''/>
-        </div>
-        <div>
+        </li>
+        <li>
           <img  alt=''/>
-        </div>
-        <div>
+        </li>
+        <li>
           <img alt='' />
-        </div>
-        <div>
+        </li>
+        <li>
           <img alt='' />
-        </div>
-        <div>
+        </li>
+        <li>
           <img alt='' />
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
     <div>
       <div>
@@ -65,14 +60,10 @@ function Home() {
         <div>
           <img alt=''/>
         </div>
-
       </div>
       </div>
       </div>
       </div>
-      </div>
-      
-    
   )
 }
 

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Transaction from './Transaction.js'
 function Dashboard() {
   return (
     <div>
@@ -10,7 +10,7 @@ function Dashboard() {
       <main className='container border-rounded shadow-lg'>
         <div className='grid gap-4 grid-cols-2 shadow-inner hover:border-blue justify-between'>
           <div className='grid gap-x-4 gap-y-2 grid-cols-2 '>
-            <p> Transaction History</p>
+            <Transaction/> 
           </div>
           <div className='grid gap-x-4 gap-y-2 grid-cols-2 shadow-inner'>
             <p> Membership data</p>
