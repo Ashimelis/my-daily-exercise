@@ -1,8 +1,40 @@
-import React from 'react'
+import React, {useState} from 'react'
+
 
 function MemberShip() {
+
+
+
+   const [checkedOne, setCheckedOne] = useState(false);
+  const [checkedTwo, setCheckedTwo] = useState(false);
+  const handleChangeOne = () => {
+    setCheckedOne(!checkedOne);
+  };
+
+  const handleChangeTwo = () => {
+    setCheckedTwo(!checkedTwo);
+  };
+
   return (
     <div>
+      <div>
+      <label>
+        <input
+          type="checkbox"
+          checked={checkedOne}
+          onChange={handleChangeOne}
+        />
+        Check me!
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          checked={checkedTwo}
+          onChange={handleChangeTwo}
+        />
+        Check me2!
+      </label>
+    </div>
       <div>
         <form>
           <p> Members registration</p>
