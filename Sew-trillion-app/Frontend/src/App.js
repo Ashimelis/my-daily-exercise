@@ -11,24 +11,29 @@ import Trainings from './pages/Trainings/Trainings.js'
 import AboutUs from './pages/AboutUs/AboutUs.js'
 import ContactUs from './pages/ContactUs/ContactUs.js'
 import Layout from "./pages/Layout/Layout.js"
+import Profile from "./pages/Profile/profile.js"
+import Logout from "./pages/Profile/Logout.js"
 import {  Routes, Route} from "react-router-dom"
+import {FaPhone} from 'react-icons/fa'
+import { FaMailBulk } from "react-icons/fa"
+import { FaLinkedin } from "react-icons/fa"
+import { FaFacebook } from "react-icons/fa"
+import { FaTwitter } from "react-icons/fa"
 
 function App() {
   return (
     <div>
-      <div className="flex-grow-0 shadow-black border-spacing-2">
-        <header className=" overflow-x-autoauto bg-gradient-to-r from-red-500 px-4 py-4">
+    <div>
+      <div className="flex shadow-2lg">
+        <header className=" w-full bg-gradient-to-r from-green-400 to-blue-500">
           
-          <h1 className="text-bold text-blue-400">SEW-Trillion</h1>
-          <div className="object-cover object-center">
-            <div className="inline space-x-4 gap-16 px-4 py-2 justify-items-end">
-              <button className="w-full max-w-24 bg-green-300 shadow-md  rounded-md">{'Login'}</button>
-            </div>
-            <div className="inline space-x-4 gap-16 px-4 py-2 justify-items-end">
-              <button className="w-full max-w-24 bg-green-300 shadow-md rounded-md">Sign Up</button>
-            </div>
-
-          </div>
+          <h1 className=" text-bold text-white">SEW-Trillion</h1>
+           <div className=" gap-11 object-right-bottom ">
+            <button className="bottom-0 right-12 h-8 w-16 max-w-24 bg-yellow-600 shadow-md  rounded-md">{'Login'}</button>
+          
+              <button className="bottom-0 right-16 h-8 w-16  max-w-24 bg-yellow-600 shadow-md rounded-md">{'SignUp'}</button>
+           </div>
+            
       </header>
       </div>
       <div className="shadow-lg border bg-slate-300">
@@ -47,21 +52,23 @@ function App() {
                 <Route path='trainings' element={ <Trainings/>}/>
                  <Route path='about' element={ <AboutUs/>}/>
                   <Route path='contact' element={ <ContactUs/>}/>
+                  <Route path='profile' element={ <Profile/>}/>
+                  <Route path='logout' element={ <Logout/>}/>
         </Routes>
       </div>
-      <footer className="fixed bottom-0 border-rounded">
+      <footer className="fixed bottom-0 border w-full h-40">
         <div className=" flex bg-yellow-300  items-center justify-center shadow-lg border-md gap-2">
          <div className=' shadow-lg px-8 py-5 border w-96'>
           <span> Adders</span>
-          <h2> Phone Number</h2> <h3> 0922147734</h3>
-          <h2> email</h2> <h3> ...@gmail.com</h3>
-          <h2> Tel</h2> <h3> 0922147734</h3>
+          <p> <FaPhone/></p> <p> 0922147734</p>
+          <p> <FaMailBulk/></p> <p> shimelisget2@gmail.com</p>
+          <p></p> web Address <p> </p>
          </div>
          <div className='shadow-lg px-8 py-5 border w-96'>
-          <span> Adders</span>
-          <h2> Phone Number</h2> <h3> 0922147734</h3>
-          <h2> email</h2> <h3> ...@gmail.com</h3>
-          <h2> Tel</h2> <h3> 0922147734</h3>
+          <span> Social Media</span>
+          <h2> <FaFacebook/></h2> <p> 0922147734</p>
+          <h2> <FaLinkedin/></h2> <p> ...@gmail.com</p>
+          <h2> <FaTwitter/></h2> <p> 0922147734</p>
          </div>
          <div className='shadow-lg px-8 py-5 border w-96'>
           <span> Social Media</span>
@@ -71,6 +78,7 @@ function App() {
          </div>
         </div>
       </footer>
+      </div>
       </div>
   );
 };

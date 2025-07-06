@@ -29,11 +29,16 @@ const Layout = () => {
            <li>
             <Link className="hover:text-gray-500" to="/loan">Loan service</Link>
           </li>
-           <>
+           <li>
             <Link className="hover:text-gray-500" to="/about">About us</Link>
-          </>
+          </li>
            <li >
             <Link className="hover:text-gray-500" to="/contact">contact Us</Link>
+          </li>
+          <li >
+            <Link className="hover:text-gray-500" to="/profile">Profile</Link>
+          </li><li >
+            <Link className="hover:text-gray-500" to="/logout">Logout</Link>
           </li>
          
         </ul>
