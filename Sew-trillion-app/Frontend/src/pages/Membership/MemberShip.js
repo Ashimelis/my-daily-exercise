@@ -18,6 +18,7 @@ function MemberShip() {
   return (
     <div>
       <div>
+        <p> Member Type</p>
       <label>
         <input
           type="checkbox"
@@ -43,11 +44,11 @@ function MemberShip() {
           </div>
           <div>
             <label>First Name</label>
-            <input type='name'placeholder='inter your Fist name' />
+            <input className='focus:border-blue-500 border-2 border-red-500' type='name'placeholder='inter your Fist name' />
             <label>First Name</label>
-            <input type='name'placeholder='inter your Middle name' />
+            <input className='focus:border-blue-500 border-2 border-red-500' type='name'placeholder='inter your Middle name' />
             <label>First Name</label>
-            <input type='name'placeholder='inter Last name' />
+            <input className='focus:border-blue-500 border-2 border-red-500' type='name'placeholder='inter Last name' />
 
           </div>
 

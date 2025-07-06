@@ -9,25 +9,25 @@ function Dashboard() {
       </header>
       <main className='container border-rounded shadow-lg'>
         <div className='grid gap-4 grid-cols-2 shadow-inner hover:border-blue justify-between'>
-          <div className='grid gap-x-4 gap-y-2 grid-cols-2 '>
+          <div className=' border-2 border-fuchsia-500 grid h=32 w-32 p-4 box-border gap-x-4 gap-y-2 grid-cols-2 '>
             Transaction history
           </div>
-          <div className='grid gap-x-4 gap-y-2 grid-cols-2 shadow-inner'>
+          <div className=' border-2 border-fuchsia-500 grid h=32 w-32 p-4 box-border gap-x-4 gap-y-2 grid-cols-2 shadow-inner'>
             <p> Membership data</p>
           </div>
-          <div className='grid gap-x-4 gap-y-2 grid-cols-2 shadow-inner'>
+          <div className=' border-2 border-fuchsia-500 h=32 w-32 p-4 box-border grid gap-x-4 gap-y-2 grid-cols-2 shadow-inner'>
             <p> Total deposit</p>
           </div>
-          <div className='grid gap-x-4 gap-y-2 grid-cols-2 shadow-inner'>
+          <div className=' border-2 border-fuchsia-500 h=32 w-32 p-4 box-border grid gap-x-4 gap-y-2 grid-cols-2 shadow-inner'>
             <p> Saved money</p>
           </div>
-          <div className='grid gap-x-4 gap-y-2 grid-cols-2 shadow-inner'>
+          <div className=' border-2 border-fuchsia-500 h=32 w-32 p-4 box-border grid gap-x-4 gap-y-2 grid-cols-2 shadow-inner'>
             <p> Top Products</p>
           </div>
-          <div className='grid gap-x-y gap-y-2 grid-cols-2 shadow-inner'>
+          <div className=' border-2 border-fuchsia-500 h=32 w-32 p-4 box-border grid gap-x-y gap-y-2 grid-cols-2 shadow-inner'>
             <p>Top Service</p>
           </div>
-          <div className='grid gap-x-4 gap-y-2 grid-cols-2 shadow-inner'>
+          <div className=' border-2 border-fuchsia-500 h=32 w-32 p-4 box-border grid gap-x-4 gap-y-2 grid-cols-2 shadow-inner'>
             <p> Member Data</p>
           </div>
         </div>
